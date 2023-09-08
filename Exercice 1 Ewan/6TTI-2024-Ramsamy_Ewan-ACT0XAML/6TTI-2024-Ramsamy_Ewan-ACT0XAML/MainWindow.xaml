@@ -1,0 +1,15 @@
+﻿<Window x:Class="_6TTI_2024_Ramsamy_Ewan_ACT0XAML.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_6TTI_2024_Ramsamy_Ewan_ACT0XAML"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Bouton HG" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="Red"/>
+        <Button Content="Bouton HD" HorizontalAlignment="Right" VerticalAlignment="Top" Foreground="#FF0010FF"/>
+        <Button Content="Bouton BG" HorizontalAlignment="Left" VerticalAlignment="bottom" Foreground="#FFFDFF00"/>
+        <Button Content="Bouton BD" HorizontalAlignment="Right" VerticalAlignment="bottom" Foreground="#FF4EFF00"/>
+    </Grid>
+</Window>
